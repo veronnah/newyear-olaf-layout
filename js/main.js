@@ -1,10 +1,19 @@
+window.onload = ()=>{
+	let sound = new Howl({
+		src: ['./newyear-trap.mp3']
+	  });
+	  sound.play();
+	  document.getElementById('body').click();
+}
+
+
 /*!
 // Snow.js - v0.0.3
 // kurisubrooks.com
 */
 
 // Amount of Snowflakes
-var snowMax = 35;
+var snowMax = 45;
 
 // Snowflake Colours
 var snowColor = ["#DDD", "#EEE"];

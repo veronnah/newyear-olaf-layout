@@ -42,11 +42,13 @@ body {
 
 .olaf-pic {
     margin-right: -200px;
+    z-index: 99999;
 }
 
 .hny {
     transition: 0.8s all;
     color: rgb(39, 35, 33); 
+    z-index: 99999;
 }
 
 .hny:hover {
